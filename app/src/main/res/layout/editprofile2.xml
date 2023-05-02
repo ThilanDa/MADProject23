@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="411dp"
+        android:layout_height="1078dp"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-264dp" />
+
+    <ImageView
+        android:id="@+id/editprofilepic"
+        android:layout_width="@dimen/dimension12"
+        android:layout_height="@dimen/dimension13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Profile"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="98dp"
+        android:layout_height="31dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/editname1"
+        android:layout_width="@dimen/dimension14"
+        android:layout_height="@dimen/dimension15"
+        android:height="58dp"
+        android:background="@drawable/edit_textbackground"
+        android:ems="10"
+        android:hint="Edit Name"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#5c5f72"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editprofilepic"
+        app:layout_constraintVertical_bias="0.149"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="98dp"
+        android:layout_height="31dp"
+        android:text="Phone"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="317dp"
+        android:layout_height="51dp"
+        android:height="58dp"
+        android:background="@drawable/edit_textbackground"
+        android:ems="10"
+        android:hint="Edit Phone"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#5c5f72"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editprofilepic"
+        app:layout_constraintVertical_bias="0.331"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="145dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="72dp"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editphone"
+        tools:layout_editor_absoluteX="133dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btndiscard"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="@drawable/discard"
+        android:text="Discard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnupdate"
+        app:layout_constraintVertical_bias="0.175"
+        tools:layout_editor_absoluteX="133dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

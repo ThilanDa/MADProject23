@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/cardpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Payment"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="43dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="295dp"
+        android:layout_height="35dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="121dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/card_holder_name"
+        android:layout_width="@dimen/dimension3"
+        android:layout_height="46dp"
+        android:height="58dp"
+        android:background="@drawable/edit_textbackground"
+        android:ems="10"
+        android:hint="Card holder Name"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#5c5f72"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:text="Card Number"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="225dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/cardnumber"
+        android:layout_width="313dp"
+        android:layout_height="46dp"
+        android:height="58dp"
+        android:background="@drawable/edit_textbackground"
+        android:ems="10"
+        android:hint="xxxx-xxxx-xxxx-xxxx"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#5c5f72"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/add_cvv"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:height="58dp"
+        android:background="@drawable/edit_textbackground"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#5c5f72"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/expireDate"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CVV Code"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <EditText
+        android:id="@+id/expireDate"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:height="58dp"
+        android:background="@drawable/edit_textbackground"
+        android:ems="10"
+        android:hint="DD/MM"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#5c5f72"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expire Date"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="327dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/visa_pic"
+        android:layout_width="68dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/visa2"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="530dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/visa_radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="526dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/mastercard_pic"
+        android:layout_width="96dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/debit"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="513dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/masterradioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="528dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/paybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pay"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="626dp"
+        android:background="@drawable/carpaymentbtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
