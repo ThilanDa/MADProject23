@@ -42,7 +42,8 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="82dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="343dp" />
 
     <TextView
@@ -86,8 +87,9 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="592dp" />
 
     <TextView
         android:id="@+id/textView20"
@@ -106,15 +108,17 @@
         android:text="If you you have an any kind of sickness, please be kind to wear a mask before colloect your order"
         android:textAlignment="center"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="619dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="701dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
         android:background="@drawable/cashbtn"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="707dp" />
+        android:text="Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="789dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

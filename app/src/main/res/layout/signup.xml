@@ -8,10 +8,11 @@
 
     <ImageView
         android:id="@+id/backdrop1"
-        android:layout_width="438dp"
-        android:layout_height="553dp"
+        android:layout_width="426dp"
+        android:layout_height="554dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/background"
         tools:ignore="MissingConstraints"
@@ -21,10 +22,10 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Signup"
         android:layout_marginBottom="600dp"
-        android:textColor="#5c5f72"
-        android:textSize="40sp"
+        android:text="Customer Registration"
+        android:textColor="#ffff"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,15 +36,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="34dp">
+        app:layout_constraintTop_toTopOf="@+id/backdrop1"
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="58dp"
@@ -93,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Enter Password"
+            android:text="Enter Contact number"
             android:textColor="#ffffff"
             android:textSize="18sp" />
 
@@ -116,7 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Re Enter Password"
+            android:text="Date of Birth"
             android:textColor="#ffffff"
             android:textSize="18sp" />
 
@@ -128,19 +132,19 @@
             android:height="58dp"
             android:background="@drawable/edit_textbackground"
             android:ems="10"
-            android:hint="Re Enter your Password"
+            android:hint="Enter DOB"
             android:inputType="textPersonName"
             android:padding="16dp"
             android:textColor="#5c5f72"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnsignup"
+            android:id="@+id/buttonRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:background="@drawable/login_btnbackground"
-            android:text="Signup"
+            android:text="Register"
             android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />

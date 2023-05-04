@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297041763566",
+    "project_id": "healthokmadproject",
+    "storage_bucket": "healthokmadproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297041763566:android:61cf917377165a3b6627ff",
+        "android_client_info": {
+          "package_name": "com.example.madproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297041763566-qj6dg1vnje3cpitcjpfqak68gbqvfih5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0WfiNxFfjYiR2C6PdtCuRLcKQ0R3ZxUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297041763566-qj6dg1vnje3cpitcjpfqak68gbqvfih5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
