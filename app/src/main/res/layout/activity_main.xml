@@ -113,22 +113,20 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icons8_facebook_48" />
+
+            <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/facebook"
-                tools:ignore="MissingConstraints" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/google"
-                tools:ignore="MissingConstraints" />
+                app:srcCompat="@drawable/icons8_gmail_48" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -152,7 +150,7 @@
             android:layout_width="174dp"
             android:layout_height="223dp"
             app:srcCompat="@drawable/doctor"
-            android:layout_marginTop="600dp"
+            android:layout_marginTop="700dp"
             android:layout_marginLeft="110dp"
 
             tools:ignore="MissingConstraints" />

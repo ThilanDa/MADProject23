@@ -16,62 +16,62 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-3dp" />
 
-    <TextView
-        android:id="@+id/cardpayment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Payment Methods"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="43dp"
-        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btncardpayment"
-        android:layout_width="@dimen/dimension6"
-        android:layout_height="@dimen/dimension7"
-        android:background="@drawable/carpaymentbtn"
-        android:text="card payment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="207dp" />
+        <TextView
+            android:id="@+id/cardpayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Methods"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btncashpayment"
-        android:layout_width="@dimen/dimension8"
-        android:layout_height="@dimen/dimension9"
-        android:background="@drawable/cashbtn"
-        android:text="cash Payment"
-        android:textColorHighlight="#ffffff"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="372dp" />
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="@dimen/dimension10"
-        android:layout_height="@dimen/dimension11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/docnurse"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="577dp" />
+        <ImageView
+            android:id="@+id/picture01"
+            android:layout_width="63dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/cash" />
 
-    <ImageView
-        android:id="@+id/picture01"
-        android:layout_width="63dp"
-        android:layout_height="69dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/cash"
-        tools:layout_editor_absoluteY="117dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btncardpayment"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="@dimen/dimension6"
+            android:layout_height="@dimen/dimension7"
+            android:background="@drawable/carpaymentbtn"
+            android:text="card payment"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btncashpayment"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="@dimen/dimension8"
+            android:layout_height="@dimen/dimension9"
+            android:background="@drawable/cashbtn"
+            android:text="cash Payment"
+            android:textColorHighlight="#ffffff"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="@dimen/dimension10"
+            android:layout_height="@dimen/dimension11"
+            app:srcCompat="@drawable/docnurse"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="90dp"/>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

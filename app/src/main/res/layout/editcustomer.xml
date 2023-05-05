@@ -22,6 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:textSize="25sp"
             android:text="Customer Profile" />
