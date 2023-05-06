@@ -23,13 +23,6 @@
             android:textStyle="bold"
             tools:ignore="MissingConstraints" />
 
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/bottom_background"
-            android:layout_marginTop="512dp"/>
-
     </LinearLayout>
 
     <LinearLayout
@@ -143,9 +136,15 @@
             android:id="@+id/confirm_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
             android:layout_marginLeft="120dp"
             android:text="Confirm and pay" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/payment" />
 
     </LinearLayout>
 
