@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="405dp"
+        android:layout_height="569dp"
+        app:srcCompat="@drawable/background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="210dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="192dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/healthok"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="56dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/kisspng_real_estate_profile_picture_icon_5b4c1135ceddd7_2742655015317117978473"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnadddescription"
+        android:layout_width="@dimen/dimension8"
+        android:layout_height="@dimen/dimension9"
+        android:background="@drawable/cashbtn"
+        android:text="Add Description"
+        android:textColorHighlight="#ffffff"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnaddtocart"
+        android:layout_width="@dimen/dimension8"
+        android:layout_height="@dimen/dimension9"
+        android:background="@drawable/cashbtn"
+        android:text="Add to cart"
+        android:textColorHighlight="#ffffff"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteY="318dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnregister"
+        android:layout_width="@dimen/dimension8"
+        android:layout_height="@dimen/dimension9"
+        android:background="@drawable/cashbtn"
+        android:text="Register"
+        android:textColorHighlight="#ffffff"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="503dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

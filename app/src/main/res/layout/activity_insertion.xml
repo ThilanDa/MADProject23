@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InsertionActivity">
+
+    <EditText
+        android:id="@+id/etMediName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textMediName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStarat_toStartOf="parent"
+        app:layout_constraintTop_TopOf="parent"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/etMediCompany"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="132dp"
+        android:ems="10"
+        android:hint="Enter Company"
+        android:inputType="textMediCompany"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStarat_toStartOf="parent"
+        app:layout_constraintTop_TopOf="parent"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <EditText
+        android:id="@+id/etMediPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="132dp"
+        android:ems="10"
+        android:hint="Enter medi price"
+        android:inputType="textMediPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStarat_toStartOf="parent"
+        app:layout_constraintTop_TopOf="parent"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/btnSaveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
